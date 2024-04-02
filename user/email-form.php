@@ -2,6 +2,11 @@
 
 *Designed & built for desktop and tablets with viewport width >= 720px and in landscape orientation.  -->
 
+<?php
+    require ("../head.html");
+?>
+
+
 <div class="contact-container">
   <div class="left-col">
     <img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png"/>
@@ -16,7 +21,7 @@
 </div>
     
     <h1>Contact us</h1>
-    <p>Planning to visit Indonesia soon? Get insider tips on where to go, things to do and find best deals for your next adventure.</p>
+    <p>Do you have any concerns with regards to our services offered? Feel free to send us an email. Just fill out the form below</p>
     
     <form id="contact-form" method="post">
       <label for="name">Full name</label>
@@ -33,4 +38,4 @@
   </div>
 </div>
 
-<!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
+<script src="../javascript/form-script.js"></script>
