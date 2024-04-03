@@ -30,15 +30,12 @@
 .left-col {
     width: 45vw;
     height: 100%;
-    background-image: url("https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url(../image/it-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.logo {
-    width: 10rem;
-    padding: 1.5rem;
-}
+
 
 .right-col {
     background: var(--bg-color);

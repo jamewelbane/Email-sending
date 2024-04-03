@@ -44,7 +44,7 @@ const validate = (e) => {
   }
 
   errorElement.innerHTML = '';
-  successMsg.innerHTML = 'Thank you! I will get back to you as soon as possible.'; 
+  successMsg.innerHTML = 'Thank you! We\'ll get back to you as soon as possible.'; 
 
   e.preventDefault();
   setTimeout(function () {

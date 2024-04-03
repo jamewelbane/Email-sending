@@ -9,7 +9,7 @@
 
 <div class="contact-container">
   <div class="left-col">
-    <img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png"/>
+    
   </div>
   <div class="right-col">
     <div class="theme-switch-wrapper">
@@ -21,7 +21,7 @@
 </div>
     
     <h1>Contact us</h1>
-    <p>Do you have any concerns with regards to our services offered? Feel free to send us an email. Just fill out the form below</p>
+    <p>If you have any questions or issues regarding the services we provide, don't hesitate to reach out via email. Simply complete the form provided below.</p>
     
     <form id="contact-form" method="post">
       <label for="name">Full name</label>
@@ -30,7 +30,7 @@
   <input type="email" id="email" name="email" placeholder="Your Email Address" required>
       <label for="message">Message</label>
   <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
-      <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+      <button type="submit" id="submit" name="submit">Send</button>
   
 </form>
 <div id="error"></div>
